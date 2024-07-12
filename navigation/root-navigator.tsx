@@ -1,8 +1,12 @@
-import { NavigationContainer } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import { DrawerNavigator } from "./drawer-navigator";
+import { BottomTabsNavigator } from "./bottom-tabs-navigator";
+import { RootStackParamList } from "../types";
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const RootNavigator = () => {
     const insets = useSafeAreaInsets();
