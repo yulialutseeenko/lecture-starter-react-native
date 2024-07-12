@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { API } from "../constants";
+import { API } from "../enums";
 import { GetQuoteResponseDto } from "../types";
 
 export const getRandomQuote = async (): Promise<GetQuoteResponseDto> => {

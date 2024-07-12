@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { API } from "../constants";
+import { API } from "../enums";
 import { getRandomNumber } from "../helpers";
 import type { GetImageResponseDto } from "../types";
 
