@@ -13,6 +13,10 @@ export const getRandomQuote = async (): Promise<GetQuoteResponseDto> => {
 	} catch (error) {
 		console.error("Error while fetching quote", error);
 
-		throw error;
+		return {
+			quoteText: "",
+			quoteAuthor: "",
+			quoteLink: "",
+		};
 	}
 };
