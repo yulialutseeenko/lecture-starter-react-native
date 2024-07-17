@@ -1,9 +1,7 @@
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
 import { RootNavigator } from "./navigation";
-import { COLORS_LIGHT } from "./constants";
 import { ThemeProvider } from "./contexts";
 
 export default function App() {
