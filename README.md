@@ -90,12 +90,12 @@ Your task will be to implement the Inspiration App that can help you to find the
     - the `Choose image` button is used to select the image from the device gallery or camera
       - after pressing the `Alert` is shown with 3 possible options: 'Gallery', 'Camera' and 'Cancel'
       - after choosing the **Gallery** the permission should be requested and after it is granted user should be led to the gallery, choose the image and after applying it should be set as a card background
-      <img src="./assets/demo/demo_2.gif" width="200">
+      - <img src="./assets/demo/demo_2.gif" width="200">
       - after choosing the **Camera** the permission should be requested and after it is granted user should be led to the camera, taka a photo and after applying it should be set as a card background
-      <img src="./assets/demo/demo_3.gif" width="200">
+      - <img src="./assets/demo/demo_3.gif" width="200">
       - after choosing the **Cancel** the Alert is hidden and the image isn't set
     - the `Get random image` button uses `getRandomImage` service as an onPress handler - after pressing the user should get the random image and it is set as a card background (**hint**: use `download_url` from the response)
-    <img src="./assets/demo/demo_4.gif" width="200">
+    - <img src="./assets/demo/demo_4.gif" width="200">
     - to work with gallery and permissions you have `expo-image-picker` library installed
   - text input to add your own quote - should have placeholder with **Enter your quote here...** text, color for the placeholder - `SECONDARY`, text color for the light theme - `FONT_MAIN`, for the dark - `FONT_INVERSE`
   - <img src="./assets/demo/demo_5.gif" width="200">
