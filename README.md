@@ -7,8 +7,7 @@ Then you run `npm start` to start the application:
 Your task will be to implement the Inspiration App that can help you to find inspiration or motivation. The app will provide the possibility to generate random inspiration cards or create them from scratch by the users:  
 <img src="./assets/demo/app.png" width="200">
 
-## Tasks
-### App structure description
+#### App structure description
 - ***/assets*** - here you can find all the necessary images and fonts to use within the application (you'll need to apply and use given fonts in the app);
 - ***/constants*** - there are color constants for the light and the dark modes;
 - ***/contexts*** - there is the ThemeContext, please replace all TODOs with the required logic for theme switching;
@@ -20,7 +19,7 @@ Your task will be to implement the Inspiration App that can help you to find ins
 - ***/services*** - there are two already created services you should use inside *add-inspiration* screen to get random image and quote;
 - ***/types*** - there are also some created types (look carefully through them, and also if you need to add a new one - do it here)
 
-
+## Tasks
 ### 1. Theme context
 
 - use AsyncStorage to save the theme initializer
