@@ -21,7 +21,7 @@ Your task will be to implement the Inspiration App that can help you to find ins
 - ***/types*** - there are also some created types (look carefully through them, and also if you need to add a new one - do it here)
 
 
-### Theme context
+### 1. Theme context
 
 - use AsyncStorage to save the theme initializer
 - initially, the application should use the light theme
@@ -30,7 +30,7 @@ Your task will be to implement the Inspiration App that can help you to find ins
 - The `StatusBar` text color should change depending on the selected theme
 
 
-### Bottom Tabs Navigator
+### 2. Bottom Tabs Navigator
 
 - navigator should consist of two tabs 'Home' with the ***dashboard*** component and 'Settings' with the ***settings*** component
 - each tab should have an icon (you can use `Ionicons` from "@expo/vector-icons"; to follow the example use `home` and `settings` icon names)
@@ -41,7 +41,7 @@ Your task will be to implement the Inspiration App that can help you to find ins
 - all colors should change depending on the selected theme
 
 
-### Root Navigator
+### 3. Root Navigator
 
 - should consist of the bottom tabs navigator and the `add-inspiration` screen
 - the font for the screen headers should be `LobsterTwo-Regular` and have a `PRIMARY` color
@@ -52,7 +52,7 @@ Your task will be to implement the Inspiration App that can help you to find ins
 ***Every screen should have the background with two `leaf.png` images placed as shown in the example*** (consider creating a separate `<ScreenBackground />` component and reusing it)
 
 
-### Dashboard screen
+### 4. Dashboard screen
 <img src="./assets/demo/demo_1.gif" width="200">
 <img src="./assets/demo/demo_6.gif" width="200">
 
@@ -61,14 +61,14 @@ Your task will be to implement the Inspiration App that can help you to find ins
 - if there are no created inspiration cards, the placeholder with the `empty-placeholder.png` image and **"No inspirations yet"** text should be shown.
 - placeholder's text should have `LobsterTwo-Italic` font family
 
-### Inspiration Card
+### 5. Inspiration Card
 
 - has a background image with an additional blur layer with 30% of the `APP_BACKGROUND` color
 - the card should have a rounded border
 - the quoted text is placed at the center of the card, should be shown on a half-transparent background, and have a minimum height of 50% of the card height
 - the font color is always `FONT_INVERSE`
 
-### Settings screen 
+### 6. Settings screen 
 <img src="./assets/demo/demo_1.gif" width="200">
 
 - should have a `Switch` to toggle the current theme
@@ -76,7 +76,7 @@ Your task will be to implement the Inspiration App that can help you to find ins
 - ***Pay attention***: for the *light* theme the trackColor should be `GREY` and for the *dark* one - `SECONDARY`
 
 
-### AddInspiration screen
+### 7. Add Inspiration screen
 
 - screen header should contain the `arrow` back button after pressing on which the user should be navigated back to the ***dashboard***
 - the back button should have the `PRIMARY` color
